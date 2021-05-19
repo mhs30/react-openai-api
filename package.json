@@ -1,0 +1,32 @@
+{
+  "name": "react-openai-api",
+  "version": "1.0.0",
+  "description": "React wrapper for the openAI API",
+  "repository": "https://github.com/mhs30/react-openai-api.git",
+  "author": "Mario Herrero Siles <marioherrerosiles@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn build:esm && yarn build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir lib/cjs"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.6",
+    "@types/react-dom": "^17.0.5",
+    "axios": "^0.21.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.2.4"
+  },
+  "peerDependencies": {
+    "axios": "^0.21.1",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "types": "./lib/esm/index.d.ts",
+  "files": [
+    "/lib"
+  ]
+}
