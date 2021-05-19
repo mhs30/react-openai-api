@@ -1,6 +1,6 @@
 {
   "name": "react-openai-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React wrapper for the openAI API",
   "repository": "https://github.com/mhs30/react-openai-api.git",
   "author": "Mario Herrero Siles <marioherrerosiles@gmail.com>",
