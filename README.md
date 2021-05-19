@@ -72,6 +72,10 @@ Response example
 }
 ```
 
+### Important
+
+[Axios](https://www.npmjs.com/package/axios) is a peer dependency, this is because having axios as a dependency can lead to have duplicated dependencies and may lead to inconsistencies.
+
 ## API Reference
 
 You can learn more in the [OpenAI API documentation](https://beta.openai.com/docs/api-reference/completions).
