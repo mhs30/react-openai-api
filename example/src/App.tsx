@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import OpenAIAPI from "react-openai-api";
-import { CompletionPayload, CompletionResponse } from "../../lib/esm/types";
+import {
+  CompletionPayload,
+  CompletionResponse,
+} from "react-openai-api/lib/esm/types";
+
 import "./App.css";
 
 function App() {

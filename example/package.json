@@ -1,5 +1,5 @@
 {
-  "name": "example",
+  "name": "react-openai-api-example",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,18 +10,23 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "axios": "^0.21.1",
+    "gh-pages": "^3.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-openai-api": "^1.0.1",
     "react-scripts": "4.0.3",
     "typescript": "^4.1.2",
-    "web-vitals": "^1.0.1",
-    "react-openai-api": "link:.."
+    "web-vitals": "^1.0.1"
   },
+  "homepage": "https://myusername.github.io/my-app",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

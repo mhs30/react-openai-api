@@ -81,3 +81,6 @@ Response example
 You can learn more in the [OpenAI API documentation](https://beta.openai.com/docs/api-reference/completions).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+![CI/CD](https://github.com/mhs30/react-openai-api/workflows/CI/CD/badge.svg)
+![License](https://img.shields.io/github/license/mhs30/react-openai-api)
