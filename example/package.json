@@ -19,7 +19,7 @@
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "https://myusername.github.io/my-app",
+  "homepage": "https://mhs30.github.io/react-openai-api",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
