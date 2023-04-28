@@ -2,6 +2,8 @@
 
 This library is a react wrapper for the openAI API, please feel free to use and/or contribute
 
+**This package was developed during a hackathon and is not maintained, I don't recommend the use of it in production**
+
 ## Live Demo
 
 [Here you can see a live demo of the component, you can find this demo in the example folder](https://mhs30.github.io/react-openai-api/)
